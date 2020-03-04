@@ -194,8 +194,7 @@ if(Pilih == "1" ):
   P = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
   if(P == "y" ):
     os.system("cd Tool-X")
-    os.system("chmod +x install.aex")
-    os.system("./install.aex")
+    os.system("python install.py")
     os.system("figlet Thanks You")
   print(" ")
   if(P == "n" ):

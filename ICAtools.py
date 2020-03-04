@@ -186,6 +186,7 @@ if(Pilih == "1" ):
   os.system("pkg install nano git php")
   os.system("pkg install python")
   os.system("git clone https://github.com/Rajkumrdusad/Tool-X")
+  os.system("figlet Succes")
   print(" ")
   print("Tool-X Succes Installed")
   sleep(1)

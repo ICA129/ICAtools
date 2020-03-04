@@ -67,14 +67,14 @@ if(Pilih == "5" ):
   sleep(4)
   print("")
   print("")
-  print("INGIN LANGSUNG MENCOBA TOOLS? (y/n)")
-  if(Pilih == "y" ):
+  Z = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
+  if(Z == "y" ):
     os.system("cd FBH")
     os.system("bash setup")
     os.system("./FBH")
     os.system("help")
     os.system("Thanks You")
-  if(Pilih == "n" ):
+  if(Z == "n" ):
     print("")
     os.system("figlet Pergi Lu Sono")
     sleep(2)
@@ -95,12 +95,12 @@ if(Pilih == "4" ):
   os.system("figlet Succes")
   print("Terkey Succes Installed")
   print("")
-  print("INGIN LANGSUNG MENCOBA TOOLS? (y/n)")
-  if(Pilih == "y" ):
+  H = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
+  if(H == "y" ):
     os.system("cd Terkey")
     os.system("python terkey.py")
     os.system("figlet Thank You")
-  if(Pilih == "n" ):
+  if(H == "n" ):
     os.system("figlet Pergi Lu Sono")
     sleep(2)
     os.system("exit")
@@ -122,12 +122,12 @@ if(Pilih == "3" ):
   print("")
   print("Termux-Login Succes Installed")
   sleep(1)
-  print("INGIN LANGSUNG MENCOBA TOOLS? (y/n)")
-  if(Pilih == "y" ):
+  F = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
+  if(F == "y" ):
     os.system("cd Termux-login")
     os.system("bash setup.sh")
     os.system("figlet Thanks You")
-  if(Pilih == "n" ):
+  if(F == "n" ):
     os.system("figlet Pergi Lu Sono")
     sleep(2)
     os.system("exit")
@@ -163,11 +163,11 @@ if(Pilih == "2" ):
   print("GGMUX   Succes  Installed")
   sleep(1)
   print("")
-  print("INGIN LANGSUNG MENCOBA TOOLS? (y/n)")
-  if(Pilih == "n" ):
+  X = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
+  if(X == "n" ):
     os.system("figlet Pergi Lu Sono")
     os.system("exit")
-  if(Pilih == "y" ):
+  if(X == "y" ):
     os.system("cd GGMUX")
     os.system("chmod 777 * ggmux.sh")
     os.system("./ggmux.sh")
@@ -190,14 +190,14 @@ if(Pilih == "1" ):
   print("Tool-X Succes Installed")
   sleep(1)
   print(" ")
-  print("INGIN LANGSUNG MENCOBA TOOLS? (y/n)")
-  if(Pilih == "y" ):
+  P = input("INGIN LANGSUNG MENCOBA TOOLS? (y/n) = ")
+  if(P == "y" ):
     os.system("cd Tool-X")
     os.system("chmod +x install.aex")
     os.system("./install.aex")
     os.system("figlet Thanks You")
   print(" ")
-  if(Pilih == "n" ):
+  if(P == "n" ):
     os.system("figlet Pergi Lu Sono")
     sleep(1)
     os.system("exit")

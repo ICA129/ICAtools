@@ -1,0 +1,8 @@
+Cara Mengaktifkan
+
+$ pkg update && upgrade
+$ pkg install python
+$ pkg install git nano php
+$ git clone https://github.com/ICA129/ICAtools
+$ cd ICAtools
+$ python2 ICAtools.py
